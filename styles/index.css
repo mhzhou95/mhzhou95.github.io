@@ -11,6 +11,9 @@
 #right_side{
     background-color: #0088cc;
     color: white;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
 }
 #right_side p{
     color: white;
