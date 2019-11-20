@@ -43,6 +43,7 @@ p i {
     display: block;
     margin: auto;
     width: 10rem;
+    border: 0.5rem solid #cccccc;
     border-radius: 50%;
 }
 #profile_box{
