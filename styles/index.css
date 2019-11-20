@@ -28,10 +28,12 @@
 i{
     font-size: 300%;
     color: whitesmoke;
+    margin-right: 0.5rem; 
 }
 li i {
     font-size: 150%;
     color: white;
+    margin-right: 0.1rem;
 }
 p i {
     font-size: 100%;
@@ -76,5 +78,11 @@ a {
     #right_side{
         position: relative;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #profile_pic{
+        display: none;
     }
 }
