@@ -6,14 +6,14 @@
 }
 #left_side{
     width:65%;
-    margin-right: 1rem;
 }
 #right_side{
     background-color: #0088cc;
-    color: white;
+    color:white;
+    height: 100%;
     position: sticky;
-    top: 0;
-    align-self: flex-start;
+    top: 1rem;
+    align-self: flex-start; 
 }
 #right_side p{
     color: white;
@@ -44,10 +44,9 @@ p i {
     border-radius: 50%;
 }
 #profile_box{
-    padding: 1rem;
+    padding-top: 1rem;
 }
 #skills_box{
-    margin-top: 1rem;
     padding: 1rem;     
 }
 .center_text{
@@ -55,15 +54,27 @@ p i {
 }
 ul {
     list-style-type: none;
-    margin-left: -2rem;
+    margin-right: 2rem;
 }
 li {
-    float: left;
-    margin-right: 0.5rem;
+    display: inline;
 }
 #left_side p, h3, h4 {
     color: gray;
 }
 span{
     float:right;
+    margin-left:1rem;
+}
+a {
+    color: gray;
+}
+@media only screen and (max-width:1114px){
+    #wrapper{
+        flex-wrap: wrap-reverse;
+    }
+    #right_side{
+        position: relative;
+        width: 100%;
+    }
 }
