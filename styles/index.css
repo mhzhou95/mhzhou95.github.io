@@ -1,122 +1,124 @@
-    * body {
-        margin: 0;
-    }
+* body {
+    margin: 0;
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+#left_side{
+    width:65%;
+}
+#right_side{
+    background-color: #0088cc;
+    color:white;
+    min-height: 100vh;
+}
+#right_side p{
+    color: white;
+}
+#right_side h3{
+    color: white;
+}
+#right_side h4{
+    color: white;
+}
+
+i{
+    font-size: 250%;
+    color: whitesmoke;
+    margin-right: 0.5rem; 
+}
+li i {
+    font-size: 150%;
+    color: white;
+    margin-right: 0.1rem;
+}
+p i {
+    font-size: 100%;
+    color: black;
+}
+#profile_pic{
+    display: block;
+    margin: auto;
+    width: 10rem;
+    border: 0.5rem solid #cccccc;
+    border-radius: 50%;
+}
+#profile_box{
+    padding-top: 1rem;
+}
+#skills_box{
+    padding: 1rem;     
+}
+.center_text{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+#skills_list li{
+    text-align: left;
+    margin-left:35%;
+}
+.navbar{
+    margin:0;
+    text-align: center;
+    background: black;
+    height: 100%;
+    padding: 0.1rem;
+    font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color:white;
+    cursor: pointer;
+}
+#left_side p, h3, h4 {
+    color: gray;
+}
+span{
+    float:right;
+    margin-left:1rem;
+}
+a {
+    color: gray;
+}
+#phoneNumber{
+    color:white;
+}
+
+@media only screen and (max-width: 768px){
     #wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-    }
-    #left_side{
-        width:65%;
+        flex-wrap: wrap-reverse;
     }
     #right_side{
-        background-color: #0088cc;
-        color:white;
+        position: relative;
+        width: 100%;
         height: 100%;
-    }
-    #right_side p{
-        color: white;
-    }
-    #right_side h3{
-        color: white;
-    }
-    #right_side h4{
-        color: white;
-    }
-
-    i{
-        font-size: 250%;
-        color: whitesmoke;
-        margin-right: 0.5rem; 
-    }
-    li i {
-        font-size: 150%;
-        color: white;
-        margin-right: 0.1rem;
-    }
-    p i {
-        font-size: 100%;
-        color: black;
-    }
-    #profile_pic{
-        display: block;
-        margin: auto;
-        width: 10rem;
-        border: 0.5rem solid #cccccc;
-        border-radius: 50%;
-    }
-    #profile_box{
-        padding-top: 1rem;
-    }
-    #skills_box{
-        padding: 1rem;     
-    }
-    .center_text{
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-        margin-right: 2rem;
-    }
-    li{
-        align-items: left;
     }
     .navbar{
-        margin:0;
-        text-align: center;
-        background: black;
-        height: 100%;
-        padding: 0.1rem;
-        font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+        display: none;
     }
-    .navbar ul li{
-        display: inline-block;
+}
+@media only screen and (max-width: 767px){
+    #profile_pic{
+        display: none;
     }
-    .navbar ul li a {
-        text-decoration: none;
-        margin-right: 1rem;
-        color:white;
-        cursor: pointer;
+}
+@media only screen and (max-width:1023px){
+    #wrapper{
+        flex-wrap: wrap-reverse;
     }
-    #left_side p, h3, h4 {
-        color: gray;
+    #right_side{
+        position: relative;
+        width: 100%;
     }
-    span{
-        float:right;
-        margin-left:1rem;
-    }
-    a {
-        color: gray;
-    }
-    #phoneNumber{
-        color:white;
-    }
- 
-    @media only screen and (max-width: 768px){
-        #wrapper{
-            flex-wrap: wrap-reverse;
-        }
-        #right_side{
-            position: relative;
-            width: 100%;
-        }
-        .navbar{
-            display: none;
-        }
-    }
-    @media only screen and (max-width: 767px){
-        #profile_pic{
-            display: none;
-        }
-    }
-    @media only screen and (max-width:1023px){
-        #wrapper{
-            flex-wrap: wrap-reverse;
-        }
-        #right_side{
-            position: relative;
-            width: 100%;
-        }
-    }
-   
+}
+
