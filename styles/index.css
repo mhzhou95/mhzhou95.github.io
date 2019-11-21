@@ -62,8 +62,8 @@ ul {
     list-style-type: none;
     margin-right: 2rem;
 }
-li {
-    display: inline;
+li{
+    align-items: left;
 }
 #left_side p, h3, h4 {
     color: gray;
@@ -78,7 +78,7 @@ a {
 #phoneNumber{
     color:white;
 }
-@media only screen and (max-width:1114px){
+@media only screen and (max-width:1078px){
     #wrapper{
         flex-wrap: wrap-reverse;
     }
@@ -94,7 +94,7 @@ a {
     }
 }
 
-@media only screen and (min-width:1114px){
+@media only screen and (min-width:1078px){
     #right_side{
         min-height: 100vh;
     }
