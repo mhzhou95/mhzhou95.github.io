@@ -1,3 +1,6 @@
+* body {
+    margin: 0;
+}
 #wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -85,5 +88,11 @@ a {
 @media only screen and (max-width: 767px){
     #profile_pic{
         display: none;
+    }
+}
+
+@media only screen and (min-width:1114px){
+    #right_side{
+        height: 100vh;
     }
 }
