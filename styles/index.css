@@ -75,6 +75,9 @@ span{
 a {
     color: gray;
 }
+#phoneNumber{
+    color:white;
+}
 @media only screen and (max-width:1114px){
     #wrapper{
         flex-wrap: wrap-reverse;
