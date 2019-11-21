@@ -96,6 +96,6 @@ a {
 
 @media only screen and (min-width:1114px){
     #right_side{
-        height: 100%;
+        min-height: 100vh;
     }
 }
