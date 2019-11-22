@@ -24,7 +24,15 @@
 #right_side h4{
     color: white;
 }
-
+.divider{
+    border-bottom: 1px solid gray;
+}
+.anchor{
+    display: block;
+    height: 10rem;
+    margin-top: -5rem;
+    visibility: hidden;
+}
 i{
     font-size: 250%;
     color: whitesmoke;
@@ -68,6 +76,8 @@ ul {
     text-align: center;
     background: black;
     height: 100%;
+    position: sticky;
+    top:0;
     padding: 0.1rem;
     font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
