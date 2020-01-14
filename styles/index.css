@@ -60,8 +60,9 @@ p i {
 #profile_box{
     padding-top: 1rem;
 }
-#skills_box{
-    padding: 1rem;     
+.download-link{
+    margin-top: 1rem;
+    color:white;
 }
 .center_text{
     text-align: center;
